@@ -20,6 +20,7 @@ public class HospitalTest extends TestCase {
 	Hospital testHospital = new Hospital();
 
 	public void testAddDoctor() {
+		
 		testHospital.addDoctor(new GeneralPractitioner());
 		testHospital.addDoctor(new GeneralPractitioner());
 		testHospital.addDoctor(new Surgeon());
